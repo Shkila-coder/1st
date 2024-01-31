@@ -7,7 +7,7 @@
 #include"logo.c"
 
 int main(int argc, char *argv[])
-{   logo();
+{   logo(); //LOGOTIP)
     printf("В списке целых чисел последовательности одинаковых чисел длиной более 3 заменить одним числом\n");
     srand(time(NULL));
     int i, tmpRand, tmpRuch[100], count, a, b, c, l;
